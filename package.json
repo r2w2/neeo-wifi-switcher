@@ -1,0 +1,28 @@
+{
+  "name": "neeo-wifi-switcher",
+  "version": "0.47.8",
+  "description": "NEEO Wifi switcher",
+  "repository": "https://github.com/r2w2/neeo-wifi-switcher",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "lifx-http-api": "^1.0.3",
+    "neeo-sdk": "*",
+    "node-lifx": "^0.8.0",
+    "node-ssh-exec": "*"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "server:wifi-switcher": "node lib/wifi-switcher/index.js"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jshint": "^2.9.4",
+    "mocha": "^4.0.1",
+    "mockery": "^2.1.0",
+    "sinon": "^4.0.2"
+  }
+}
